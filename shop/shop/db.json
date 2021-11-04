@@ -1,0 +1,72 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "electronics",
+      "sub_categories": [
+        {
+          "id": 2,
+          "name": "phones",
+          "products": [
+            {
+              "id": 15,
+              "name": "Samsung Galaxy"
+            },
+            {
+              "id": 25,
+              "name": "IPhone 13 Pro"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "tv",
+          "products": [
+            {
+              "id": 35,
+              "name": "Samsung"
+            },
+            {
+              "id": 45,
+              "name": "LG"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "kitchen",
+      "sub_categories": [
+        {
+          "id": 5,
+          "name": "teapot",
+          "products": [
+            {
+              "id": 55,
+              "name": "Vitek"
+            },
+            {
+              "id": 65,
+              "name": "Scarlet"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "name": "microwave owen",
+          "products": [
+            {
+              "id": 75,
+              "name": "OwenSuper"
+            },
+            {
+              "id": 85,
+              "name": "MegaOwen"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

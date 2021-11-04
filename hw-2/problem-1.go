@@ -1,21 +1,13 @@
-  
 package main
 
-import (
-	"fmt" 
-	"strings"
-)
+import "fmt"
 
 type IPAddr [4]byte
 
+// TODO: Add a "String() string" method to IPAddr.
 func (ip IPAddr) String() string {
-	s := make([]string, len(ip))
-	for i, v := range ip {
-		s[i] = fmt.Sprintf("%d", v)
-	}
-	return strings.Join(s, ".")
+	return fmt.Sprintf("%v.%v.%v.%v", ip[0], ip[1], ip[2], ip[3])
 }
-
 func main() {
 	hosts := map[string]IPAddr{
 		"loopback":  {127, 0, 0, 1},
